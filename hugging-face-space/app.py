@@ -17,7 +17,7 @@ def get_audio(url):
 
 def get_text(url):
   result = pipe(get_audio(url))['text']
-  return result['text'].strip()
+  return result
 
 
   
